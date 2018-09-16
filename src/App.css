@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: black;
+  height: 150px;
+  padding: 20px;
+  /* color: white; */
+  font-family: Nexa;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.title {
+  font-family: Nexa;
+  font-weight: bold;
+  justify-content: center;
+}
+
+/* .amount{
+  flex-basis: 500;
+} */
+
+.inputLabel{
+  font-size: 1.6rem;
+}
+
+.getMoney{
+  font-family: Nexa;
+  font-weight: lighter;
+  margin-bottom: 5%;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  /* overflow: visible; */
+}
+
+.convert{
+  font-family: Nexa;
+  font-weight: bold;
+  font-style: italic;
+}
+
+@media screen and (min-width: 1200px) {
+  .flex-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  label.MuiFormLabel-root-060.MuiInputLabel-root-055.MuiInputLabel-formControl-056.MuiInputLabel-animated-059 {
+    font-size: 10px !important;
+  
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+label.MuiFormLabel-root-060.MuiFormLabel-filled-064.MuiInputLabel-root-055.MuiInputLabel-formControl-056.MuiInputLabel-animated-059.MuiInputLabel-shrink-058.inputLabel {
+  font-size: 20px !important;
+}
+
+label.MuiFormLabel-root-060.MuiInputLabel-root-055.MuiInputLabel-formControl-056.MuiInputLabel-animated-059 {
+  font-size: 20px !important;
+
+}
